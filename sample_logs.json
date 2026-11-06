@@ -1,0 +1,35 @@
+
+{
+  "logs": [
+    {
+      "timestamp": "2026-11-06 10:00:00",
+      "service": "database",
+      "level": "ERROR",
+      "message": "Database connection refused"
+    },
+    {
+      "timestamp": "2026-11-06 10:00:03",
+      "service": "database",
+      "level": "ERROR",
+      "message": "Database connection pool exhausted"
+    },
+    {
+      "timestamp": "2026-11-06 10:00:05",
+      "service": "api",
+      "level": "ERROR",
+      "message": "API request timeout"
+    },
+    {
+      "timestamp": "2026-11-06 10:00:08",
+      "service": "api",
+      "level": "ERROR",
+      "message": "HTTP 503 service unavailable"
+    },
+    {
+      "timestamp": "2026-11-06 10:00:10",
+      "service": "server",
+      "level": "WARNING",
+      "message": "High memory usage"
+    }
+  ]
+}

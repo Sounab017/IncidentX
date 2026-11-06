@@ -1,0 +1,19 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Testing
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+
+# Generated reports
+reports/*.json

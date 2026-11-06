@@ -1,0 +1,106 @@
+{
+    "Database": {
+        "description": "Database connectivity or query failure.",
+        "causes": [
+            "Database server unavailable",
+            "Connection pool exhausted",
+            "SQL query failure"
+        ],
+        "actions": [
+            "Check database server status",
+            "Verify database credentials",
+            "Check connection pool limits",
+            "Restart database service if required"
+        ]
+    },
+
+    "API": {
+        "description": "API requests are failing or timing out.",
+        "causes": [
+            "API server overload",
+            "Backend service unavailable",
+            "Request timeout"
+        ],
+        "actions": [
+            "Check API server health",
+            "Inspect server logs",
+            "Verify API endpoints",
+            "Increase timeout if appropriate"
+        ]
+    },
+
+    "Network": {
+        "description": "Network connectivity problems detected.",
+        "causes": [
+            "DNS resolution failure",
+            "Packet loss",
+            "Network interruption"
+        ],
+        "actions": [
+            "Check network connectivity",
+            "Verify DNS configuration",
+            "Inspect network devices",
+            "Check packet loss"
+        ]
+    },
+
+    "Memory": {
+        "description": "Memory exhaustion detected.",
+        "causes": [
+            "Memory leak",
+            "Insufficient RAM",
+            "Excessive application usage"
+        ],
+        "actions": [
+            "Monitor memory consumption",
+            "Identify memory leaks",
+            "Restart affected services if necessary",
+            "Increase available memory if required"
+        ]
+    },
+
+    "CPU": {
+        "description": "High CPU utilization detected.",
+        "causes": [
+            "Excessive processing",
+            "Infinite loops",
+            "High application workload"
+        ],
+        "actions": [
+            "Monitor CPU utilization",
+            "Identify resource-intensive processes",
+            "Optimize application performance",
+            "Scale resources if required"
+        ]
+    },
+
+    "Authentication": {
+        "description": "Authentication or authorization failure.",
+        "causes": [
+            "Invalid credentials",
+            "Expired authentication token",
+            "Incorrect access permissions"
+        ],
+        "actions": [
+            "Verify user credentials",
+            "Check authentication tokens",
+            "Review access permissions",
+            "Inspect authentication logs"
+        ]
+    },
+
+    "Disk": {
+        "description": "Disk storage or filesystem failure.",
+        "causes": [
+            "Disk space exhausted",
+            "Storage device failure",
+            "Excessive log generation"
+        ],
+        "actions": [
+            "Check available disk space",
+            "Remove unnecessary temporary files",
+            "Inspect disk health",
+            "Configure log rotation"
+        ]
+    }
+}
